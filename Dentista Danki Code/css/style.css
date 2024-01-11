@@ -1,0 +1,552 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+.clear {
+    clear: both;
+}
+
+.container {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*  HEADER   */
+
+.logo {
+    float: left;
+    width: 236px;
+}
+
+header {
+    padding: 20px 2%;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    float: left;
+    padding: 0 40px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #b4b4b4;
+}
+
+/*---Header---*/
+
+
+
+/*Sessao-Mosaico*/
+
+.mosaico-single {
+    float: left;
+    width: calc(100% / 6);
+}
+
+.img-mosaico-single {
+    width: 100%;
+    padding-top: 100%;
+    background-color: #ccc;
+    border: 5px solid white;
+    background-image: url(../img/odontologia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Sessao-Mosaico*/
+
+/* --Section-servicos-- */
+
+.box-servicos {
+    background-image: url(../img/icone_dente.png);
+    background-position: center calc(100% - 6px);
+    background-repeat: no-repeat;
+    text-align: left;
+}
+
+
+.box-servicos>h2 {
+    color: white;
+    font-weight: normal;
+    font-size: 20px;
+    margin: 15px 0;
+    text-transform: uppercase;
+}
+
+.box-servicos>p {
+    color: white;
+    font-weight: normal;
+    margin-top: 5px;
+    font-size: 14px;
+
+}
+
+
+section.servicos>.container {
+    max-width: 800px;
+    display: flex;
+    text-align: center;
+    position: relative;
+    top: -30px;
+    align-items: center;
+}
+
+.box-servicos:nth-child(1) {
+    width: 35%;
+    padding: 30px 2%;
+    background-color: #576975;
+}
+
+.box-servicos:nth-child(2) {
+    width: 50%;
+    padding: 60px 2%;
+    background-color: #688293;
+    background-image: none;
+}
+
+.box-servicos:nth-child(3) {
+    width: 35%;
+    padding: 30px 2%;
+    background-color: #576975;
+}
+
+/* --Section-servicos-- */
+
+
+
+
+
+/* Sessao Perfil Profissional */
+section.perfil-container .container {
+    max-width: 800px;
+}
+
+section.perfil-container .perfil-wraper {
+
+    position: relative;
+}
+
+section.perfil-container .perfil-wraper2 {
+    position: static;
+    display: flex;
+    width: 100%;
+    height: auto;
+
+}
+
+section.perfil-container .img-perfil {
+    background-image: url(../img/img_perfil.png);
+    width: 60%;
+    padding-top: 60%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.texto-perfil {
+    width: 60%;
+    text-align: justify;
+    padding: 0 30px;
+}
+
+.texto-perfil h2 {
+    color: #698293;
+    font-size: 18px;
+}
+
+.texto-perfil p {
+    color: #4b4b4b;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.perfil-container {
+    padding: 60px 0;
+}
+
+/* Sessao Perfil Profissional */
+
+
+/* sessao videos */
+
+
+
+.box-video iframe {
+    float: left;
+    width: 33.3%;
+    padding: 0px 10px;
+    height: 240px;
+    margin-bottom: 50px;
+}
+
+
+
+
+/* sessao videos */
+
+
+/* sessao tratamentos */
+
+
+.tratamento-wraper h1 {
+    padding: 30px;
+    color: #698293;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.tratamento-single {
+
+
+    float: left;
+    width: calc(100% / 3);
+}
+
+.tratamento-texto p,
+h2 {
+    margin: 30px 30px;
+    text-align: left;
+}
+
+.tratamento-texto p {
+    color: #698293;
+}
+
+
+
+
+/* sessao tratamentos */
+
+/* sessao depoimentos */
+.depoimentos {
+    margin-bottom: 30px;
+}
+
+.depoimentos-wraper {
+    text-align: center;
+    max-width: 450px;
+    margin: 0 auto;
+
+
+}
+
+.depoimentos-wraper>h2 {
+    margin-left: 30%;
+    color: #688293;
+
+}
+
+.depoimentos-wraper>p {
+    font-size: 17px;
+}
+
+.img-depoimento {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    position: relative;
+    right: -70px;
+    bottom: -25px;
+    border-radius: 50%;
+    background-image: url(../img/depoimento1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* sessao depoimentos */
+
+
+/* sessao social */
+
+
+.instagram-chamada {
+    float: left;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 40px 0;
+    background-color: #98a5ae;
+}
+
+.instagram-chamada p {
+    margin-top: 5px;
+    line-height: 30px;
+}
+
+.facebook-chamada {
+    float: left;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 40px 0;
+    background-color: #576975;
+}
+
+.facebook-chamada p {
+    margin-top: 5px;
+    line-height: 30px;
+}
+
+.mosaico-social {
+    float: left;
+    width: 100%;
+}
+
+.img-mosaico-single-social {
+    float: left;
+    width: calc(100% / 8);
+    padding-top: calc(100% / 8);
+    background-color: #4b4b4b;
+    border: 5px solid white;
+}
+
+
+/* sessao social */
+
+
+
+/* sessao contato */
+
+.contato {
+    padding: 20px 2%;
+
+}
+
+.contato h2 {
+    text-align: center;
+    font-size: 25px;
+    color: #688293;
+}
+
+.contato form {
+    width: 100%;
+    margin: 50px auto;
+    max-width: 500px;
+}
+
+.form-wraper {
+    float: left;
+
+}
+
+.w100 {
+    width: 100%;
+
+}
+
+.w50 {
+    width: 50%;
+    padding-right: 10px;
+}
+
+.form-wraper span {
+    font-size: 15px;
+    color: #b4b4b4;
+}
+
+.form-wraper input {
+    width: 100%;
+    height: 50px;
+    line-height: 30px;
+    padding-left: 9px;
+    border: 1px solid #dadada;
+    margin: 10px 0;
+}
+
+.form-wraper textarea {
+    width: 100%;
+    padding: 15px;
+    height: 121px;
+    border: 1px solid #dadada;
+    margin-top: 5px;
+    resize: none;
+}
+
+.form-wraper input[type="submit"] {
+    width: 100px;
+    height: 35px;
+    background-color: #688293;
+    position: relative;
+    left: 38%;
+}
+
+/* sessao contato */
+
+/* sessao footer  */
+
+.footer {
+
+    background-color: #576975;
+}
+
+.footer-wraper {
+    width: 100%;
+    margin-left: 10%;
+    height: 150px;
+
+}
+
+.footer-single {
+    width: 33.3%;
+
+    float: left;
+}
+
+.footer-single p {
+    color: white;
+    margin-top: 5px;
+    line-height: 20px;
+}
+
+.footer-single h2 {
+    font-weight: normal;
+    margin: 40px 0px 0px;
+    color: white;
+}
+
+.danki-logo {
+    background-color: rgb(73, 92, 104);
+    height: 50px;
+    text-align: center;
+}
+
+.logo-wraper img {
+    margin-top: 15px;
+}
+
+/* sessao footer  */
+
+/*--Responsivo--*/
+
+
+@media screen and (max-width:1024px) {
+
+    .img-mosaico-single-social {
+        float: left;
+        width: calc(100% / 4);
+        padding-top: calc(100% / 4);
+        background-color: #4b4b4b;
+        border: 5px solid white;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    header {
+        text-align: center;
+
+    }
+
+    header .logo {
+
+        width: 100%;
+    }
+
+    header nav ul li {
+        padding: 0px auto;
+        margin-top: 20px;
+
+        width: 100%;
+    }
+
+    header nav ul li a {
+        margin-bottom: 40px;
+        width: 100%;
+    }
+
+    section.servicos>.container {
+        top: 0px;
+
+    }
+
+    section.servicos>.container {
+        margin-top: 40%;
+        flex-direction: column;
+    }
+
+    .box-servicos {
+        max-width: 350px;
+    }
+
+    .box-servicos:nth-child(1) {
+
+        width: 40%;
+        padding: 30px 2%;
+        background-color: #576975;
+    }
+
+    .box-servicos:nth-child(2) {
+        width: 100%;
+        padding: 60px 2%;
+        background-color: #688293;
+        background-image: none;
+    }
+
+    .box-servicos:nth-child(3) {
+        width: 40%;
+        padding: 30px 2%;
+        background-color: #576975;
+    }
+
+    .perfil-wraper2 {
+        flex-direction: column;
+
+    }
+
+    section.perfil-container .img-perfil {
+        margin: 0 auto;
+        width: 50%;
+        display: inline-block;
+        height: 20%;
+        padding-top: 40%;
+        margin-bottom: 40px;
+
+    }
+
+    .texto-perfil {
+        display: inline-block;
+        width: 100%;
+        padding: 0 30px;
+    }
+
+    .box-video iframe {
+        width: 90%;
+        margin: 0 25px;
+        padding-bottom: 10px;
+    }
+
+    .tratamento-single {
+        width: 100%;
+        background-color: #4b4b4b1c;
+    }
+
+    .footer-wraper {
+
+        margin-left: 2%;
+
+
+    }
+}
+
+/*--Responsivo--*/
